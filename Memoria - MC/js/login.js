@@ -14,9 +14,8 @@ const Submitar = (event) => {
     event.preventDefault();
 
     localStorage.setItem('Nome', input.value)
-    window.location ='/Pages/game.html'
+    window.location ='./game.html'
 }
-
 
 
 input.addEventListener('input', Inputar)
